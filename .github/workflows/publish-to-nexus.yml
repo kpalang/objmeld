@@ -1,7 +1,6 @@
 name: Publish release to Nexus
 on:
-  release:
-    types: [published]
+  push
 
 jobs:
   build:
