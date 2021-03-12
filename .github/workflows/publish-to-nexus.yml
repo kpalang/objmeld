@@ -18,7 +18,7 @@ jobs:
           githubServer: false
           servers: |
             [{
-              "id": "nexus-kaurpalang-snapshots",
+              "id": "nexus-kaurpalang-releases",
               "username": "${{secrets.NEXUS_USERNAME}}",
               "password": "${{secrets.NEXUS_PASSWORD}}"
             }]
